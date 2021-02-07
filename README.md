@@ -64,19 +64,23 @@ from [Wikipedia](https://en.wikipedia.org/wiki/Community_areas_in_Chicago). Publ
 This data is very useful when considering what clients you plan on targeting. Depending on the part of town, their dominant health 
 concerns may vary widely. 
 
-2. The top ten community areas with the most health related venues including gyms, spas and parks in Chicago are:
+2. There were 219 unique venue categories found throughout the city of Chicago.
+
+3. The top ten community areas with the most health related venues including gyms, spas and parks in Chicago are:
 
 ![Largest Number of Health Related Venues](/chicago_final/assets/num_health_venues.png "Number of Health Related Venues")
 
-3. From Foursquare, the most common venues in these neighborhoods are:
+![Largest Number of Health Related Venues Chart](/chicago_final/assets/top_10_comms.png "Number of Health Related Venues Chart")
+
+4. From Foursquare, the most common venues in these neighborhoods are:
 
 ![Most common venues in areas with most health related venues](/chicago_final/assets/most_common_venues.png "Most common venues in areas with most health related venues")
 
-4. Community areas of Chicago mapped:
+5. Community areas of Chicago mapped:
 
 ![Map of Community Areas of Chicago](/chicago_final/assets/chicago_cluster_map.png "Map of Community Areas of Chicago")
 
-5. A closer look at cluster 2 which is mostly located in the central/northwest area of the city:
+6. A closer look at cluster 2 which is mostly located in the central/northwest area of the city:
 
 ![Closer Look at Cluster 2](/chicago_final/assets/cluster1.png "Closer Look at Cluster 2")
 
@@ -90,7 +94,7 @@ Main observations:
 Recommendations:
 
   - The Loop and Lincoln Park area are great business districts but are also going to be highly competitive and expensive to start. However, income in these
-  areas allow for the targeting of a more afluent crowd.
+  areas allow for the targeting of a more affluent crowd.
   
   - If space is more important, the communities further away from the center of the city look to be great areas with high business activity as well as a more suburban setting.
   
