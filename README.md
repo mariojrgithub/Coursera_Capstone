@@ -23,15 +23,15 @@ Where in the city of Chicago would be a good location/neighborhood to open a fit
 ## Data
 
 In order to answer the above question, I obtained important business information utilizing the Foursquare API as well as neighborhood data scraped
-from [Wikipedia](https://en.wikipedia.org/wiki/Community_areas_in_Chicago). Public health data was downloaded from the [official data portal](https://data.cityofchicago.org/Health-Human-Services/Public-Health-Statistics-Selected-public-health-in/iqnk-2tcu) for the Chicago of Chicago. Foursquare was ultimately the largest source of data with critical information such as venue names, types, and location. From Wikipedia zip codes, neighborhood names and location coordinates were also obtained.
+from [Wikipedia](https://en.wikipedia.org/wiki/Community_areas_in_Chicago). Public health data was downloaded from the [official data portal](https://data.cityofchicago.org/Health-Human-Services/Public-Health-Statistics-Selected-public-health-in/iqnk-2tcu) for the City of Chicago. Foursquare was ultimately the largest source of data with critical information such as venue names, types, and location. From Wikipedia zip codes, neighborhood names and location coordinates were also obtained.
 
 ## Methodology
 1. Scraped Wikipedia with [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#) to get a list of community area names.
-2. This list of names was then used to scrape each community area page obtain zip codes and coordinates.
-3. Utilized Pandas to explore and clean the unstructured data an assemble into a DataFrame object.
+2. This list of names was then used to scrape each community area page, obtain zip codes and coordinates.
+3. Utilized Pandas to explore and clean the unstructured data and assemble into a DataFrame object.
 4. "Public Health Statistics- Selected public health indicators by Chicago community area" dataset was downloaded from the city of Chicago's data portal.      
 5. Foursquare API was then used to get venue information for the list of 77 community areas.
-6. Calculated important statistics such as the the frequency of each unique business category found in each area.
+6. Calculated important statistics such as the frequency of each unique business category found in each area.
 7. Determined which of the categories would best fall under the category of 'health-related' and decided on: 
 
   'Farmers Market', 'Fruit & Vegetable Store', 'Park', 'Climbing Gym', 'Sporting Goods Shop', 'Gym', 'Yoga Studio',
@@ -61,8 +61,8 @@ from [Wikipedia](https://en.wikipedia.org/wiki/Community_areas_in_Chicago). Publ
        - 'Per Capita Income': $25107
        - 'Unemployment': 13.3
        
-This data is very useful when considering what clients you plan on specializing in. Depending on the part of town, their dominant health 
-concerns many vary widely. 
+This data is very useful when considering what clients you plan on targeting. Depending on the part of town, their dominant health 
+concerns may vary widely. 
 
 2. The top ten community areas with the most health related venues including gyms, spas and parks in Chicago are:
 
@@ -76,9 +76,9 @@ concerns many vary widely.
 
 ![Map of Community Areas of Chicago](/chicago_final/assets/chicago_cluster_map.png "Map of Community Areas of Chicago")
 
-5. A closer look at cluster 1 which is mostly located in the central/northwest area of the city:
+5. A closer look at cluster 2 which is mostly located in the central/northwest area of the city:
 
-![Closer Look at Cluster 1](/chicago_final/assets/cluster1.png "Closer Look at Cluster 1")
+![Closer Look at Cluster 2](/chicago_final/assets/cluster1.png "Closer Look at Cluster 2")
 
 ## Discussion
 Main observations:
