@@ -82,7 +82,7 @@ concerns may vary widely.
 
 6. A closer look at cluster 2 which is mostly located in the central/northwest area of the city:
 
-![Closer Look at Cluster 2](/chicago_final/assets/cluster1.png "Closer Look at Cluster 2")
+![Closer Look at Cluster 2](/chicago_final/assets/cluster2.png "Closer Look at Cluster 2")
 
 ## Discussion
 Main observations:
